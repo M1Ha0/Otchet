@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Otchet/Otchet.csproj" />
+  <Project Path="ViewOtchet/OtchetClient.csproj" />
+</Solution>
