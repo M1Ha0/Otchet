@@ -10,7 +10,10 @@
 
   <ItemGroup>
     <Folder Include="ViewModels\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.1" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="Otchet/Otchet.csproj" />
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="d2a355eb-39bc-4425-9d5c-17c988718c8c" />
   <Project Path="ViewOtchet/OtchetClient.csproj" />
 </Solution>

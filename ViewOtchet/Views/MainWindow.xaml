@@ -25,6 +25,6 @@
             <Label>До</Label>
             <DatePicker Width="300" SelectedDate="{Binding EndDate}" DisplayDateStart="{Binding StartDate}"/>
         </StackPanel>
-        
+        <TextBlock Text="{Binding }"></TextBlock>
     </Grid>
 </Window>
