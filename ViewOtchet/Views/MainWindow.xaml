@@ -14,7 +14,9 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Height="70" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="11 0 0 0">
             <TextBlock Height="20" Width="240">Выбор группы</TextBlock>
-            <ComboBox VerticalAlignment="Bottom" Height="30" Width="240" ></ComboBox>   
+            <ComboBox VerticalAlignment="Bottom" Height="30" Width="240" x:Name="GroupComboBox" 
+                DisplayMemberPath="IdGroup" SelectedValuePath="IdGroup"
+                SelectedValue="{Binding IdGroup}" ></ComboBox>   
         </StackPanel>
         <Label Grid.Row="1" Height="40" VerticalAlignment="Top"  HorizontalAlignment="Center">Выберите период отчета</Label>
         <StackPanel Grid.Row="1" HorizontalAlignment="Left" Margin="50 30 0 0">
@@ -25,6 +27,5 @@
             <Label>До</Label>
             <DatePicker Width="300" SelectedDate="{Binding EndDate}" DisplayDateStart="{Binding StartDate}"/>
         </StackPanel>
-        <TextBlock Text="{Binding }"></TextBlock>
     </Grid>
 </Window>

@@ -6,7 +6,7 @@ namespace OtchetClient.Models
 {
     public class All_Groups
     {
-        public int IdGru { get; set; }
+        public int IdGroup { get; set; }
         public string NameGroup { get; set; } = null!;
     }
 }

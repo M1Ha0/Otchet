@@ -7,6 +7,6 @@ namespace OtchetClient.Models
     public class Znach
     {
         public int IdZnach { get; set; }
-        public string NameZnach { get; set; }
+        public string NameZnach { get; set; } = null!;
     }
 }
